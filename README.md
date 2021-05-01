@@ -34,4 +34,17 @@ A propriedade flex-direction pode ser usada no elemento container, elemento com 
 * column: Faz os elementos posicionarem-se na vertical, de cima para baixo.
 * column-reverse: Faz os elementos posicionarem-se na vertical, de baixo para cima.
 
+exemplo de código:
+````css
+.container {
+  display: flex;
+  flex-direction: column
+}
+````
+
+exemplos utilizando os 4 valores acima citados:
+
+![flex box row](/ex3-flexbox-300.jpg)  ![flex box column](/ex4-flexbox-300.jpg)
+
+![flex box row](/ex5-flexbox-300.jpg)  ![flex box column-reverse](/ex6-flexbox-300.jpg)
 
