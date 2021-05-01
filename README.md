@@ -17,7 +17,7 @@ A construção do layout de uma página pode a ser algo muito desafiador, princi
 
 ### Display flex
 
-Como já foi visto anteriormente, o display block faz com que os elementos filhos, elementos entre a abertura e o fechamento da tag, apareçam verticalmente na tela, um abaixo do outro, enquanto o display inline faz o contrário, fazendo-os aparecer um do lado do outro. O display inline-block faz com que os elementos filhos apareçam um do lado do outro e passem para a linha de baixo antes de chegar na borda do container.
+Como já foi visto anteriormente, o display block faz com que os elementos filhos, elementos entre a abertura e o fechamento de uma tag, apareçam verticalmente na tela, um abaixo do outro, enquanto o display inline faz o contrário, fazendo-os aparecer um do lado do outro. O display inline-block faz com que os elementos filhos apareçam um do lado do outro e passem para a linha de baixo antes de chegar na borda do container.
 
 Estes três tipos de display têm outras diferenças não apresentadas acima, caso você queira se aprofundar, acesse os Recursos Adicionais.
 
@@ -25,9 +25,11 @@ A configuração inicial do display flex faz com que os elementos filhos apareç
 
 ![flex box exemplo 1](/ex1-flexbox-300.jpg)  ![flex box exemplo 2](/ex2-flexbox-300.jpg)
 
+As propriedades que podem ser usadas junto com o elemento container são: flex-direction, flex-wrap, flex-flow, justify-content, align-items e align-content.
+
 ### Flex-direction
 
-A propriedade flex-direction pode ser usada no elemento container, elemento com display flex. Seguem seus principais valores abaixo:
+A propriedade flex-direction define o sentido na qual os elementos serão posicionados. Seguem seus principais valores abaixo:
 
 * row: seu valor default, que faz os elementos filhos ficarem um do lado do outro, iniciando da esquerda para a direita.
 * row-reverse: Faz os elementos filhos ficarem um do lado do outro, mas da direita para a esquerda.
@@ -48,3 +50,20 @@ exemplos utilizando os 4 valores acima citados:
 
 ![flex box row](/ex5-flexbox-300.jpg)  ![flex box column-reverse](/ex6-flexbox-300.jpg)
 
+### Flex-wrap
+
+A propriedade flex-wrap permite que os elementos passem para a próxima linha ou coluna quando alcançar a borda do container. Seguem abaixo seus principais valores:
+
+* nowrap: Valor default, não permite que os elementos filhos mudem de linha ou coluna.
+* wrap: Permite que os elementos filhos mudem de linha ou coluna ao alcançarem o padding do container.
+* wrap-reverse: Além de permitir que mudem de linha ou coluna faz os elementos começarem na direção reversa.
+
+exemplo de código:
+````css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+````
+
+![flex box nowrap]()
