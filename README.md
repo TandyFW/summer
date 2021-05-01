@@ -25,3 +25,5 @@ Como já foi visto anteriormente, o display block faz com que os elementos filho
 Estes três tipos de display têm outras diferenças não apresentadas acima, caso você queira se aprofundar, acesse os Recursos Adicionais.
 
 A configuração inicial do display flex faz com que os elementos filhos apareçam um do lado do outro, respeitando as margens e adaptando seu width, para caber dentro do elemento pai.
+
+![flex box exemplo 1](https://github.com/TandyFW/summer/edit/main/)
