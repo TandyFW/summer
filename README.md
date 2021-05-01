@@ -112,7 +112,7 @@ flex-start, flex-end e flex-center:
 
 ![flexbox flex-start](/ex11-flexbox-300.jpg)  ![flexbox flex-start](/ex12-flexbox-300.jpg)  ![flexbox flex-start](/ex16-flexbox-300.jpg)
 
-space-
+space-evelyn, space-around e space-between:
 
 ![flexbox flex-start](/ex14-flexbox-300.jpg)  ![flexbox flex-start](/ex15-flexbox-300.jpg)  ![flexbox flex-start](/ex13-flexbox-300.jpg)
 
