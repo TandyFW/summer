@@ -85,3 +85,11 @@ Exemplo de código:
   display: flex;
   flex-flow: column-reverse wrap
 }
+
+### Justify-content
+
+Esta propriedade permite alinhar os elementos filhos de acordo com o eixo principal, ou seja, de acordo com a direção escolhida(row ou column).
+
+* flex-start: Valor default, faz o alinhamento no sentido padrão no sentido da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
+* flex-end: Faz o alinhamento inverso da direção escolhida.
+* stretch: Faz com que os elementos filhos ocupem todo o espaço 
