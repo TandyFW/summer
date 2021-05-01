@@ -75,4 +75,13 @@ display-direction: column
 
 ![flex box nowrap](/ex9-flexbox-300.jpg)  ![flex box nowrap](/ex10-flexbox-300.jpg)
 
+### Flex-flow
 
+Flex-flow é um atalho para utilizar flex-direction e flex-wrap juntos em uma única linha.
+
+Exemplo de código:
+````css
+.container {
+  display: flex;
+  flex-flow: column-reverse wrap
+}
