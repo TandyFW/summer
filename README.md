@@ -23,7 +23,7 @@ Estes três tipos de display têm outras diferenças não apresentadas acima, ca
 
 A configuração inicial do display flex faz com que os elementos filhos apareçam um do lado do outro, respeitando as margens e adaptando seu width, para caber dentro do elemento pai.
 
-![flex box exemplo 1](/ex1-flexbox-300.jpg)  ![flex box exemplo 2](/ex2-flexbox-300.jpg)
+![flexbox exemplo 1](/ex1-flexbox-300.jpg)  ![flexbox exemplo 2](/ex2-flexbox-300.jpg)
 
 As propriedades que podem ser usadas junto com o elemento container são: flex-direction, flex-wrap, flex-flow, justify-content, align-items e align-content.
 
@@ -46,9 +46,9 @@ Exemplo de código:
 
 Exemplos utilizando os 4 valores acima citados:
 
-![flex box row](/ex3-flexbox-300.jpg)  ![flex box column](/ex4-flexbox-300.jpg)
+![flexbox row](/ex3-flexbox-300.jpg)  ![flexbox column](/ex4-flexbox-300.jpg)
 
-![flex box row](/ex5-flexbox-300.jpg)  ![flex box column-reverse](/ex6-flexbox-300.jpg)
+![flexbox row](/ex5-flexbox-300.jpg)  ![flexbox column-reverse](/ex6-flexbox-300.jpg)
 
 ### Flex-wrap
 
@@ -69,11 +69,11 @@ Exemplos utilizando wrap e wrap-reverse
 
 display-direction: row
 
-![flex box nowrap](/ex7-flexbox-300.jpg)  ![flex box nowrap](/ex8-flexbox-300.jpg)
+![flexbox nowrap](/ex7-flexbox-300.jpg)  ![flexbox nowrap](/ex8-flexbox-300.jpg)
 
 display-direction: column
 
-![flex box nowrap](/ex9-flexbox-300.jpg)  ![flex box nowrap](/ex10-flexbox-300.jpg)
+![flexbox nowrap](/ex9-flexbox-300.jpg)  ![flexbox nowrap](/ex10-flexbox-300.jpg)
 
 ### Flex-flow
 
@@ -85,11 +85,28 @@ Exemplo de código:
   display: flex;
   flex-flow: column-reverse wrap
 }
+````
 
 ### Justify-content
 
-Esta propriedade permite alinhar os elementos filhos de acordo com o eixo principal, ou seja, de acordo com a direção escolhida(row ou column).
+Esta propriedade permite alinhar os elementos filhos de acordo com o eixo principal, ou seja, de acordo com a direção escolhida(row ou column). Seguem alguns dos principais valores dessa propriedade:
 
 * flex-start: Valor default, faz o alinhamento no sentido padrão no sentido da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
 * flex-end: Faz o alinhamento inverso da direção escolhida.
-* stretch: Faz com que os elementos filhos ocupem todo o espaço 
+* center: Centraliza os elementos filhos.
+* space-around: Põe um espaço igual entre as bordas do container e o primeiro e último elemento, e põe espaços iguais entre os demais elementos.
+* space-between: O primeiro elemento filho posiciona-se no ínicio do container e o último elemento no final do container, os demais ficarão espaçados igualmente entre si.
+* space-evenly: Põe espaços iguais entre os elementos e a borda do container.
+
+Exemplo de código:
+````css
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+````
+
+Exemplos utilizando os valores de justify-content vistos acima:
+
+![flexbox flex-start](/ex11-flexbox-300.jpg)
+
