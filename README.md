@@ -36,7 +36,7 @@ A propriedade flex-direction define o sentido na qual os elementos serão posici
 * column: Faz os elementos posicionarem-se na vertical, de cima para baixo.
 * column-reverse: Faz os elementos posicionarem-se na vertical, de baixo para cima.
 
-exemplo de código:
+Exemplo de código:
 ````css
 .container {
   display: flex;
@@ -44,7 +44,7 @@ exemplo de código:
 }
 ````
 
-exemplos utilizando os 4 valores acima citados:
+Exemplos utilizando os 4 valores acima citados:
 
 ![flex box row](/ex3-flexbox-300.jpg)  ![flex box column](/ex4-flexbox-300.jpg)
 
@@ -58,12 +58,21 @@ A propriedade flex-wrap permite que os elementos passem para a próxima linha ou
 * wrap: Permite que os elementos filhos mudem de linha ou coluna ao alcançarem o padding do container.
 * wrap-reverse: Além de permitir que mudem de linha ou coluna faz os elementos começarem na direção reversa.
 
-exemplo de código:
+Exemplo de código:
 ````css
 .container {
   display: flex;
   flex-wrap: wrap;
 }
 ````
+Exemplos utilizando wrap e wrap-reverse
 
-![flex box nowrap]()
+display-direction: row
+
+![flex box nowrap](/ex7-flexbox-300.jpg)  ![flex box nowrap](/ex8-flexbox-300.jpg)
+
+display-direction: column
+
+![flex box nowrap](/ex9-flexbox-300.jpg)  ![flex box nowrap](/ex10-flexbox-300.jpg)
+
+
