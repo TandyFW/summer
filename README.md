@@ -26,4 +26,4 @@ Estes três tipos de display têm outras diferenças não apresentadas acima, ca
 
 A configuração inicial do display flex faz com que os elementos filhos apareçam um do lado do outro, respeitando as margens e adaptando seu width, para caber dentro do elemento pai.
 
-![flex box exemplo 1](/ex1-flexbox-300.jpg) ![flex box exemplo 2](/ex2-flexbox-200.jpg)
+![flex box exemplo 1](/ex1-flexbox-300.jpg)  ![flex box exemplo 2](/ex2-flexbox-300.jpg)
