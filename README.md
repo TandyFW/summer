@@ -4,13 +4,10 @@ Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicion
 
 ## Você será capaz de:
 
-•	Utilizar o display flex para definir o elemento “container”.
-
-•	Utilizar a propriedade flex-direction para definir a direção que os elementos dentro do container seguirão.
-
-•	Utilizar align-items, justify-content e align-content para posicionar os elementos dentro do “container”.
-
-•	Utilizar flex-wrap para definir se os elementos se aglomerarão em uma única linha ou coluna ou pularam para a próxima caso exceda o espaço.
+*	Utilizar o display flex para definir o elemento “container”.
+*	Utilizar a propriedade flex-direction para definir a direção que os elementos dentro do container seguirão.
+*	Utilizar align-items, justify-content e align-content para posicionar os elementos dentro do “container”.
+*	Utilizar flex-wrap para definir se os elementos se aglomerarão em uma única linha ou coluna ou pularam para a próxima caso exceda o espaço.
 
 ### Por que isso é importante?
 
@@ -27,3 +24,14 @@ Estes três tipos de display têm outras diferenças não apresentadas acima, ca
 A configuração inicial do display flex faz com que os elementos filhos apareçam um do lado do outro, respeitando as margens e adaptando seu width, para caber dentro do elemento pai.
 
 ![flex box exemplo 1](/ex1-flexbox-300.jpg)  ![flex box exemplo 2](/ex2-flexbox-300.jpg)
+
+### Flex-direction
+
+A propriedade flex-direction pode ser usada no elemento container, elemento com display flex. Seguem seus principais valores abaixo:
+
+* row: seu valor default, que faz os elementos filhos ficarem um do lado do outro, iniciando da esquerda para a direita.
+* row-reverse: Faz os elementos filhos ficarem um do lado do outro, mas da direita para a esquerda.
+* column: Faz os elementos posicionarem-se na vertical, de cima para baixo.
+* column-reverse: Faz os elementos posicionarem-se na vertical, de baixo para cima.
+
+
