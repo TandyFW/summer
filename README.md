@@ -2,7 +2,7 @@
 
 Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicionar nossos elementos na tela com o uso de flexbox.
 
-## Você será capaz de:
+# Você será capaz de:
 
 *	Utilizar o display flex para definir o elemento **container**.
 *	Utilizar a propriedade flex-direction para definir a direção que os elementos filhos dentro do container se posicionarão.
@@ -10,11 +10,11 @@ Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicion
 *	Utilizar flex-flow para definir tanto direction quanto wrap em uma única linha.
 *	Utilizar justify-content, align-items e align-content para posicionar os elementos filhos dentro do container de várias formas.
 
-### Por que isso é importante?
+# Por que isso é importante?
 
 A construção do layout de uma página pode a ser algo muito desafiador, principalmente torná-lo responsivo para múltiplos tamanhos de telas. Com a ajuda do flexbox é possível criar layouts responsivos com mais facilidade e fluidez devido a forma que os elementos dentro do container flex se ajustam automaticamente de acordo com suas propriedades.
 
-### Conteúdos:
+# Conteúdos:
 
 ### Display flex
 
