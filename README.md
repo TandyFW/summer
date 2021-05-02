@@ -6,8 +6,10 @@ Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicion
 
 *	Utilizar o display flex para definir o elemento **container**.
 *	Utilizar a propriedade flex-direction para definir a direção que os elementos filhos dentro do container se posicionarão.
-*	Utilizar align-items, justify-content e align-content para posicionar os elementos filhos dentro do container de várias formas.
 *	Utilizar flex-wrap para definir se os elementos filhos se manterão em uma única linha ou coluna ou pularam para a próxima caso exceda o espaço do container.
+*	Utilizar flex-flow para definir tanto direction quanto wrap em uma única linha.
+*	Utilizar align-items, justify-content e align-content para posicionar os elementos filhos dentro do container de várias formas.
+
 
 ### Por que isso é importante?
 
