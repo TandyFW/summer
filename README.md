@@ -67,11 +67,11 @@ Exemplo de código:
 ````
 Exemplos utilizando wrap e wrap-reverse
 
-display-direction: row
+display-direction: row -> wrap e wrap-reverse
 
 ![flexbox nowrap](/ex7-flexbox-300.jpg)  ![flexbox nowrap](/ex8-flexbox-300.jpg)
 
-display-direction: column
+display-direction: column -> wrap e wrap-reverse
 
 ![flexbox nowrap](/ex9-flexbox-300.jpg)  ![flexbox nowrap](/ex10-flexbox-300.jpg)
 
@@ -108,11 +108,7 @@ Exemplo de código:
 
 Exemplos utilizando os valores de justify-content vistos acima:
 
-flex-start, flex-end e flex-center:
-
 ![flexbox flex-start](/ex11-flexbox-300.jpg)  ![flexbox flex-start](/ex12-flexbox-300.jpg)  ![flexbox flex-start](/ex16-flexbox-300.jpg)
-
-space-evelyn, space-around e space-between:
 
 ![flexbox flex-start](/ex14-flexbox-300.jpg)  ![flexbox flex-start](/ex15-flexbox-300.jpg)  ![flexbox flex-start](/ex13-flexbox-300.jpg)
 
