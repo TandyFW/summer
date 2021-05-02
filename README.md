@@ -8,8 +8,7 @@ Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicion
 *	Utilizar a propriedade flex-direction para definir a direção que os elementos filhos dentro do container se posicionarão.
 *	Utilizar flex-wrap para definir se os elementos filhos se manterão em uma única linha ou coluna ou pularam para a próxima caso exceda o espaço do container.
 *	Utilizar flex-flow para definir tanto direction quanto wrap em uma única linha.
-*	Utilizar align-items, justify-content e align-content para posicionar os elementos filhos dentro do container de várias formas.
-
+*	Utilizar justify-content, align-items e align-content para posicionar os elementos filhos dentro do container de várias formas.
 
 ### Por que isso é importante?
 
@@ -89,9 +88,11 @@ Exemplo de código:
 }
 ````
 
-### Justify-content
+### Justify-content, align-items e align-content
 
-Esta propriedade permite alinhar os elementos filhos de acordo com o eixo principal, ou seja, de acordo com a direção escolhida(row ou column). Seguem alguns dos principais valores dessa propriedade:
+Antes de falar sobre essas três propriedades, você precisa saber a diferença entre main-axis, eixo principal e cross-axis, eixo transversal. O eixo principal é definido pela direção escolhida pelo flex-direction, ou seja, se for row, o eixo principal será horizontal, se for column, será vertical. Já o eixo transversal será o oposto do eixo principal.
+
+A propriedade justify-content permite alinhar os elementos filhos de acordo com o eixo principal. Seguem alguns dos principais valores dessa propriedade:
 
 * flex-start: Valor default, faz o alinhamento no sentido padrão da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
 * flex-end: Faz o alinhamento inverso da direção escolhida.
@@ -114,3 +115,4 @@ Exemplos utilizando os valores de justify-content vistos acima:
 
 ![flexbox flex-start](/ex14-flexbox-300.jpg)  ![flexbox flex-start](/ex15-flexbox-300.jpg)  ![flexbox flex-start](/ex13-flexbox-300.jpg)
 
+A propriedade align-items
