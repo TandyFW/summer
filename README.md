@@ -4,7 +4,7 @@ Vamos turbinar nossos conhecimentos em css aprendendo uma nova forma de posicion
 
 ## Você será capaz de:
 
-*	Utilizar o display flex para definir o elemento *container*.
+*	Utilizar o display flex para definir o elemento **container**.
 *	Utilizar a propriedade flex-direction para definir a direção que os elementos filhos dentro do container se posicionarão.
 *	Utilizar align-items, justify-content e align-content para posicionar os elementos filhos dentro do container de várias formas.
 *	Utilizar flex-wrap para definir se os elementos filhos se manterão em uma única linha ou coluna ou pularam para a próxima caso exceda o espaço do container.
@@ -31,7 +31,7 @@ As propriedades que podem ser usadas junto com o elemento container são: flex-d
 
 A propriedade flex-direction define o sentido na qual os elementos serão posicionados. Seguem seus principais valores abaixo:
 
-* row: seu valor default, que faz os elementos filhos ficarem um do lado do outro, iniciando da esquerda para a direita.
+* row: Seu valor default, que faz os elementos filhos ficarem um do lado do outro, iniciando da esquerda para a direita.
 * row-reverse: Faz os elementos filhos ficarem um do lado do outro, mas da direita para a esquerda.
 * column: Faz os elementos posicionarem-se na vertical, de cima para baixo.
 * column-reverse: Faz os elementos posicionarem-se na vertical, de baixo para cima.
@@ -40,7 +40,7 @@ Exemplo de código:
 ````css
 .container {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 ````
 
@@ -83,7 +83,7 @@ Exemplo de código:
 ````css
 .container {
   display: flex;
-  flex-flow: column-reverse wrap
+  flex-flow: column-reverse wrap;
 }
 ````
 
@@ -91,7 +91,7 @@ Exemplo de código:
 
 Esta propriedade permite alinhar os elementos filhos de acordo com o eixo principal, ou seja, de acordo com a direção escolhida(row ou column). Seguem alguns dos principais valores dessa propriedade:
 
-* flex-start: Valor default, faz o alinhamento no sentido padrão no sentido da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
+* flex-start: Valor default, faz o alinhamento no sentido padrão da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
 * flex-end: Faz o alinhamento inverso da direção escolhida.
 * center: Centraliza os elementos filhos.
 * space-around: Põe um espaço igual entre as bordas do container e o primeiro e último elemento, e põe espaços iguais entre os demais elementos.
