@@ -100,7 +100,7 @@ A propriedade justify-content permite alinhar os elementos filhos de acordo com 
 * space-around: Põe um espaço igual entre as bordas do container e o primeiro e último elemento, e põe espaços iguais entre os demais elementos.
 * space-between: O primeiro elemento filho posiciona-se no ínicio do container e o último elemento no final do container, os demais ficarão espaçados igualmente entre si.
 * space-evenly: Põe espaços iguais entre os elementos e a borda do container.
-* stretch: Faz os elementos filhos prencherem todo o espaço do container no sentido transversal.
+* stretch: Faz os elementos filhos prencherem todo o espaço do container no sentido transversal, este valor vem como default assim como o flex-start quando os elementos filhos não possuem height ou possuem apenas min-height.
 
 Exemplo de código:
 ````css
@@ -118,11 +118,12 @@ Exemplos utilizando os valores de justify-content vistos acima:
 
 ![flexbox stretch](/ex17-flexbox-300.JPG)
 
-A propriedade align-items permite alinhar os elementos filhos no sentido do eixo transversal. Iremos abordar os mesmos valores citados para justify-contents para essa propriedade.
+A propriedade align-items permite alinhar os elementos filhos no sentido do eixo transversal.
 
 * flex-start: Valor default, faz o alinhamento no sentido transversal de cima para baixo, caso a direção seja row e da esquerda para a direita, caso a direção seja column.
 * flex-end: Faz o alinhamento transversal contrário, de baixo para cima, caso a direção seja row e da direita para a esquerda caso a direção seja column.
 * center: Centraliza os elementos filhos no eixo transversal.
+* stretch: Faz os elementos filhos prencherem todo o espaço do container no sentido transversal, caso os elementos não possuam height definida.
 
 Exemplo de código:
 ````css
