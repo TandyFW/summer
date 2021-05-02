@@ -116,6 +116,8 @@ Exemplos utilizando os valores de justify-content vistos acima:
 
 ![flexbox flex-start](/ex14-flexbox-300.jpg)  ![flexbox flex-start](/ex15-flexbox-300.jpg)  ![flexbox flex-start](/ex13-flexbox-300.jpg)
 
+![flexbox stretch](/ex17-flexbox-300.jpg)
+
 A propriedade align-items permite alinhar os elementos filhos no sentido do eixo transversal. Iremos abordar os mesmos valores citados para justify-contents para essa propriedade.
 
 * flex-start: Valor default, faz o alinhamento no sentido transversal de cima para baixo, caso a direção seja row e da esquerda para a direita, caso a direção seja column.
