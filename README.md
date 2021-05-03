@@ -68,11 +68,11 @@ Exemplo de código:
 ````
 Exemplos utilizando wrap e wrap-reverse
 
-display-direction: row -> wrap e wrap-reverse
+flex-direction: row -> wrap e wrap-reverse
 
 ![flexbox nowrap](/ex7-flexbox-300.jpg)  ![flexbox nowrap](/ex8-flexbox-300.jpg)
 
-display-direction: column -> wrap e wrap-reverse
+flex-direction: column -> wrap e wrap-reverse
 
 ![flexbox nowrap](/ex9-flexbox-300.jpg)  ![flexbox nowrap](/ex10-flexbox-300.jpg)
 
@@ -135,6 +135,13 @@ Exemplo de código:
 }
 ````
 
-![flexbox flex-start](/ex11-flexbox-300.jpg)  
+flex-direction: row;
+
+![flexbox flex-start](/ex11-flexbox-300.jpg)  ![flexbox flex-end](/ex18-flexbox-300.JPG)
+
+![flexbox center](/ex19-flexbox-300.JPG)  ![flexbox stretch](/ex17-flexbox-300.JPG)
+
+flex-direction: column;
+
 
 
