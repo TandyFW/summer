@@ -160,6 +160,10 @@ Exemplo de código:
 
 flex-flow: row wrap;
 
+![flexbox flex-start](/ex24-flexbox-300.jpg)  ![flexbox flex-end](/ex25-flexbox-300.jpg)
 
+![flexbox center](/ex26-flexbox-300.jpg)  ![flexbox space-around](/ex27-flexbox-300.jpg)
+
+![flexbox space-between](/ex28-flexbox-300.jpg)  ![flexbox stretch](/ex29-flexbox-300.jpg)
 
 flex-flow: column wrap;
