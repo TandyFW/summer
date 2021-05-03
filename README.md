@@ -129,7 +129,7 @@ A propriedade align-items permite alinhar os elementos filhos no sentido do eixo
 
 Exemplo de código:
 ````css
-.contaier {
+.container {
   display:flex;
   align-items: flex-end;
 }
@@ -147,4 +147,19 @@ flex-direction: column;
 
 ![flexbox center](/ex22-flexbox-300.JPG)  ![flexbox stretch](/ex23-flexbox-300.jpg)
 
+A propriedade align-content define o espaçamento entre os elementos filhos do container no eixo transversal. Essa propriedade só tem efeito quando os elementos pulam de linha ou coluna, ou seja, quando o flex-wrap for wrap e tiver elementos suficiente para pular de linha ou coluna.
 
+
+Exemplo de código:
+````css
+.container {
+  display:flex;
+  align-content: center;
+
+````
+
+flex-flow: row wrap;
+
+
+
+flex-flow: column wrap;
