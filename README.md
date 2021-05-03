@@ -92,6 +92,8 @@ Exemplo de código:
 
 Antes de falar sobre essas três propriedades, você precisa saber a diferença entre main-axis, eixo principal e cross-axis, eixo transversal. O eixo principal é definido pela direção escolhida pelo flex-direction, ou seja, se for row, o eixo principal será horizontal, se for column, será vertical. Já o eixo transversal será o oposto do eixo principal.
 
+![row direction](/row.jpg) ![column direction](/column.jpg)
+
 A propriedade justify-content permite alinhar os elementos filhos de acordo com o eixo principal. Seguem alguns dos principais valores dessa propriedade:
 
 * flex-start: Valor default, faz o alinhamento no sentido padrão da direção escolhida, fazendo os elementos filhos começarem a partir da esquerda no caso de direction: row e de cima no caso de direction: column.
