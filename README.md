@@ -143,5 +143,8 @@ flex-direction: row;
 
 flex-direction: column;
 
+![flexbox flex-start](/ex20-flexbox-300.JPG)  ![flexbox flex-end](/ex21-flexbox-300.JPG)
+
+![flexbox center](/ex22-flexbox-300.JPG)  ![flexbox stretch](/ex23-flexbox-300.JPG)
 
 
