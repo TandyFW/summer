@@ -300,6 +300,6 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva a questão 7 alterand
 
 # Recursos adicionais
 
-* https://flexboxfroggy.com/
-* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-* https://www.w3schools.com/css/css3_flexbox.asp
+* [Alguns Exercícios com froggy](https://flexboxfroggy.com/)
+* [Aprofundando com css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Conteúdos extras na w3schools](https://www.w3schools.com/css/css3_flexbox.asp)
