@@ -22,7 +22,9 @@ Faça com que o texto e a lista fiquem um do lado do outro, o texto a esquerda d
 
     }
     .ul {
-
+      list-style: none;
+      width: 50%;
+      border: 1px solid black;
     }
   </style>
   <title>Flexbox</title>
@@ -46,3 +48,134 @@ Faça com que o texto e a lista fiquem um do lado do outro, o texto a esquerda d
 ````
 
 ### Exercício 2
+Faça com que a lista fique do lado esquerdo do texto.
+
+````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .main {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 50%;
+    }
+    .aside {
+
+    }
+    .ul {
+      list-style: none;
+      width: 50%;
+      border: 1px solid black;
+    }
+  </style>
+  <title>Flexbox</title>
+</head>
+<body>
+  <main class="main">
+    <section class="section">
+      O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    </section>
+    <aside class="aside">
+      <ul class="ul">
+        <li>Home</li>
+        <li>Videos</li>
+        <li>Pictures</li>
+        <li>Leave</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
+````
+
+### Exercício 3
+Posicione a lista acima do texto.
+
+````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .main {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 50%;
+    }
+    .aside {
+
+    }
+    .ul {
+      list-style: none;
+      width: 50%;
+      border: 1px solid black;
+    }
+  </style>
+  <title>Flexbox</title>
+</head>
+<body>
+  <main class="main">
+    <section class="section">
+      O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    </section>
+    <aside class="aside">
+      <ul class="ul">
+        <li>Home</li>
+        <li>Videos</li>
+        <li>Pictures</li>
+        <li>Leave</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
+````
+
+### Exercício 4
+Com a lista acima do texto, faça com que seus itens fiquem lado a lado.
+
+````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .main {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 50%;
+    }
+    .aside {
+
+    }
+    .ul {
+      display: flex;
+      list-style: none;
+      width: 50%;
+      border: 1px solid black;
+    }
+  </style>
+  <title>Flexbox</title>
+</head>
+<body>
+  <main class="main">
+    <section class="section">
+      O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    </section>
+    <aside class="aside">
+      <ul class="ul">
+        <li>Home</li>
+        <li>Videos</li>
+        <li>Pictures</li>
+        <li>Leave</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
+````
