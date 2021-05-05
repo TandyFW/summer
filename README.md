@@ -178,6 +178,46 @@ flex-flow: column wrap;
 
 Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 alterando apenas a tag style, alterando o css dos elementos.
 
+````html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .section {
+
+    }
+    .aside {
+
+    }
+    .ul {
+
+    }
+  </style>
+  <title>Flexbox</title>
+</head>
+<body>
+  <main>
+    <section class="section">
+      O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500,
+      quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica,
+      mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais
+      recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    </section>
+    <aside class="aside">
+      <ul class="ul">
+        <li>Home</li>
+        <li>Videos</li>
+        <li>Pictures</li>
+        <li>Leave</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
+````
+
 1.  Faça com que o texto e a lista fiquem um do lado do outro, o texto a esquerda da lista.
 2.  Faça com que a lista fique do lado esquerdo do texto.
 3.  Posicione a lista acima do texto.
