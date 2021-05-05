@@ -237,12 +237,21 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva a questão 7 alterand
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    main {
+      
+    }
+    section {
+    
+    }
     article {
       width: 20%;
     }
     ul {
       list-style: none;
       padding: 0;
+    }
+    footer {
+    
     }
   </style>
   <title>Document</title>
