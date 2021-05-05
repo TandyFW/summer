@@ -173,3 +173,13 @@ flex-flow: column wrap;
 ![flexbox center](/ex32-flexbox-300.jpg)  ![flexbox space-around](/ex33-flexbox-300.jpg)
 
 ![flexbox space-between](/ex34-flexbox-300.jpg)  ![flexbox stretch](/ex35-flexbox-300.jpg)
+
+# Exercícios
+
+Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 alterando apenas a tag style, alterando o css dos elementos.
+
+1.  Faça com que o texto e a lista fiquem um do lado do outro, o texto a esquerda da lista.
+2.  Faça com que a lista fique do lado esquerdo do texto.
+3.  Posicione a lista acima do texto.
+4.  Com a lista acima do texto, faça com que seus itens fiquem lado a lado.
+5.  Inverta a ordem dos itens da lista.
