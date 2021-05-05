@@ -185,8 +185,8 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 a
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    .section {
-
+    .main {
+      width: 50%;
     }
     .aside {
 
