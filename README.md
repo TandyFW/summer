@@ -247,8 +247,10 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva a questão 7 alterand
       width: 20%;
     }
     ul {
-      list-style: none;
+      border: 1px solid black;
       padding: 0;
+      list-style: none;
+      width: 50%;
     }
     footer {
     
