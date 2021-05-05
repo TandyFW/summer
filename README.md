@@ -296,4 +296,4 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva a questão 7 alterand
 
 7. Faça com que o a página fique de acordo com a imagem acima abaixo:
 
-![page]()
+![page](/exercise7.jpg)
