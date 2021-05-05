@@ -176,7 +176,7 @@ flex-flow: column wrap;
 
 # Exercícios
 
-Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 alterando apenas a tag style, alterando o css dos elementos.
+Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 6 alterando apenas a tag style, alterando o css dos elementos.
 
 ````html
 <!DOCTYPE html>
@@ -192,7 +192,10 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 a
 
     }
     .ul {
-
+      list-style: none;
+      padding: 0;
+      width: 50%;
+      border: 1px solid black;
     }
   </style>
   <title>Flexbox</title>
@@ -223,3 +226,4 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva as questões 1 à 5 a
 3.  Posicione a lista acima do texto.
 4.  Com a lista acima do texto, faça com que seus itens fiquem lado a lado.
 5.  Inverta a ordem dos itens da lista.
+6.  Deixe todos os itens com o mesmo espaçamento entre si e entre as bordas
