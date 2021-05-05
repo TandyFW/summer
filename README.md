@@ -167,3 +167,9 @@ flex-flow: row wrap;
 ![flexbox space-between](/ex28-flexbox-300.jpg)  ![flexbox stretch](/ex29-flexbox-300.jpg)
 
 flex-flow: column wrap;
+
+![flexbox flex-start](/ex30-flexbox-300.jpg)  ![flexbox flex-end](/ex31-flexbox-300.jpg)
+
+![flexbox center](/ex32-flexbox-300.jpg)  ![flexbox space-around](/ex33-flexbox-300.jpg)
+
+![flexbox space-between](/ex34-flexbox-300.jpg)  ![flexbox stretch](/ex35-flexbox-300.jpg)
