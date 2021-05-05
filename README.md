@@ -297,3 +297,9 @@ Copie o código HTML abaixo e cole no seu VSCode e resolva a questão 7 alterand
 7. Faça com que o a página fique de acordo com a imagem acima abaixo:
 
 ![page](/exercise7.jpg)
+
+# Recursos adicionais
+
+* https://flexboxfroggy.com/
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://www.w3schools.com/css/css3_flexbox.asp
