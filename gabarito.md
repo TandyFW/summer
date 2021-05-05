@@ -280,7 +280,7 @@ Deixe todos os itens com o mesmo espaçamento entre si e entre as bordas
 ````
 
 ### Exercício 7
-
+Faça com que o a página fique de acordo com a imagem acima abaixo
 
 ````html
 <!DOCTYPE html>
